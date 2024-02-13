@@ -1,0 +1,23 @@
+﻿<Window x:Class="nolikikrestiki.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:nolikikrestiki"
+        mc:Ignorable="d"
+        Title="Крестики нолики" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="_1" Content="" HorizontalAlignment="Left" Margin="54,53,0,0" VerticalAlignment="Top" Height="100" Width="100" Click="Button_Click" FontSize="24" Foreground="#000000" FontFamily="Comic Sans MS" FontWeight="Bold" BorderBrush="#FF020202" Background="#FFFBFBFB" />
+        <Button x:Name="_2" Content="" HorizontalAlignment="Left" Margin="159,53,0,0" VerticalAlignment="Top" Height="100" Width="100" Click="Button_Click" FontSize="24" Foreground="#000000" FontFamily="Comic Sans MS" FontWeight="Bold" BorderBrush="Black" Background="White"/>
+        <Button x:Name="_3" Content="" HorizontalAlignment="Left" Margin="264,53,0,0" VerticalAlignment="Top" Height="100" Width="100" Click="Button_Click" FontSize="24" Foreground="#000000" FontFamily="Comic Sans MS" FontWeight="Bold" Background="White" BorderBrush="Black"/>
+        <Button x:Name="_4" Content="" HorizontalAlignment="Left" Margin="54,158,0,0" VerticalAlignment="Top" Height="100" Width="100" Click="Button_Click" FontSize="24" Foreground="#000000" FontFamily="Comic Sans MS" FontWeight="Bold" BorderBrush="Black" Background="White"/>
+        <Button x:Name="_5" Content="" HorizontalAlignment="Left" Margin="159,158,0,0" VerticalAlignment="Top" Height="100" Width="100" Click="Button_Click" FontSize="24" Foreground="#000000" FontFamily="Comic Sans MS" FontWeight="Bold" Background="White" BorderBrush="Black"/>
+        <Button x:Name="_6" Content="" HorizontalAlignment="Left" Margin="264,158,0,0" VerticalAlignment="Top" Height="100" Width="100" Click="Button_Click" FontSize="24" Foreground="#000000" FontFamily="Comic Sans MS" FontWeight="Bold" BorderBrush="Black" Background="White"/>
+        <Button x:Name="_7" Content="" HorizontalAlignment="Left" Margin="54,263,0,0" VerticalAlignment="Top" Height="100" Width="100" Click="Button_Click" FontSize="24" Foreground="#000000" FontFamily="Comic Sans MS" FontWeight="Bold" BorderBrush="Black" Background="White"/>
+        <Button x:Name="_8" Content="" HorizontalAlignment="Left" Margin="159,263,0,0" VerticalAlignment="Top" Height="100" Width="100" Click="Button_Click" FontSize="24" Foreground="#000000" FontFamily="Comic Sans MS" FontWeight="Bold" Background="White" BorderBrush="Black"/>
+        <Button x:Name="_9" Content="" HorizontalAlignment="Left" Margin="264,263,0,0" VerticalAlignment="Top" Height="100" Width="100" Click="Button_Click" FontSize="24" Foreground="#000000" FontFamily="Comic Sans MS" FontWeight="Bold" BorderBrush="Black" Background="White"/>
+        <Button x:Name="start" Content="Начать!" HorizontalAlignment="Left" Margin="400,53,0,0" VerticalAlignment="Top" Width="363" Height="83" FontFamily="Comic Sans MS" FontSize="36" Click="start_Click" Foreground="#777AAA" FontWeight="Bold" Background="White" BorderBrush="Black"/>
+        <Label x:Name="info" Content="" HorizontalAlignment="Left" Margin="453,190,0,0" VerticalAlignment="Top" Width="310" Height="153" Background="#FFFFFF" FontSize="22" Foreground="#000000" FontFamily="Comic Sans MS" FontWeight="Bold" BorderBrush="Black"/>
+
+    </Grid>
+</Window>
